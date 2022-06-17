@@ -1,3 +1,4 @@
+//1
 function reverseStr (str) {
     let input = str.split("")
     let strToArr = input.reverse()
@@ -6,3 +7,9 @@ function reverseStr (str) {
 }
 
 reverseStr("abcdef")
+
+//2
+const input = [1, 2, 3, 5, 4, 2, 6, 4];
+const noRepeatSet = new Set(input);
+const result = [...noRepeatSet];
+console.log(result)
